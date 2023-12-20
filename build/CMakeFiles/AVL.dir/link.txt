@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/AVL.dir/listMain.cpp.o CMakeFiles/AVL.dir/src/List.cpp.o -o AVL 
