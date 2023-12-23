@@ -178,7 +178,18 @@ CMakeFiles/GRAPH.dir/main.cpp.o: ../main.cpp \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
-  ../include/List.h
+  /usr/include/c++/11/queue \
+  /usr/include/c++/11/deque \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_deque.h \
+  /usr/include/c++/11/bits/deque.tcc \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/stl_queue.h \
+  /usr/include/c++/11/bits/uses_allocator.h
 
 CMakeFiles/GRAPH.dir/src/List.cpp.o: ../src/List.cpp \
   /usr/include/stdc-predef.h \
@@ -362,6 +373,20 @@ CMakeFiles/GRAPH.dir/src/List.cpp.o: ../src/List.cpp \
 
 ../include/List.h:
 
+/usr/include/c++/11/bits/uses_allocator.h:
+
+/usr/include/c++/11/bits/stl_heap.h:
+
+/usr/include/c++/11/bits/vector.tcc:
+
+/usr/include/c++/11/bits/stl_bvector.h:
+
+/usr/include/c++/11/vector:
+
+/usr/include/c++/11/bits/stl_deque.h:
+
+/usr/include/c++/11/bits/stl_uninitialized.h:
+
 ../src/List.cpp:
 
 /usr/include/c++/11/bits/istream.tcc:
@@ -387,6 +412,8 @@ CMakeFiles/GRAPH.dir/src/List.cpp.o: ../src/List.cpp \
 /usr/include/c++/11/stdexcept:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
+
+/usr/include/c++/11/bits/stl_vector.h:
 
 /usr/include/c++/11/system_error:
 
@@ -437,6 +464,8 @@ CMakeFiles/GRAPH.dir/src/List.cpp.o: ../src/List.cpp \
 /usr/include/c++/11/bits/ostream.tcc:
 
 /usr/include/c++/11/clocale:
+
+/usr/include/c++/11/bits/stl_queue.h:
 
 /usr/include/c++/11/bits/stl_iterator_base_funcs.h:
 
@@ -534,6 +563,8 @@ CMakeFiles/GRAPH.dir/src/List.cpp.o: ../src/List.cpp \
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
+/usr/include/c++/11/queue:
+
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
@@ -547,6 +578,8 @@ CMakeFiles/GRAPH.dir/src/List.cpp.o: ../src/List.cpp \
 /usr/include/stdc-predef.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/c++/11/deque:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
@@ -697,6 +730,8 @@ CMakeFiles/GRAPH.dir/src/List.cpp.o: ../src/List.cpp \
 /usr/include/c++/11/bits/locale_classes.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
+
+/usr/include/c++/11/bits/deque.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
