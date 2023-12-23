@@ -153,6 +153,54 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GRAPH.dir/build.make CMakeFiles/GRAPH.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Graph.o: src/Graph.cpp.o
+.PHONY : src/Graph.o
+
+# target to build an object file
+src/Graph.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GRAPH.dir/build.make CMakeFiles/GRAPH.dir/src/Graph.cpp.o
+.PHONY : src/Graph.cpp.o
+
+src/Graph.i: src/Graph.cpp.i
+.PHONY : src/Graph.i
+
+# target to preprocess a source file
+src/Graph.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GRAPH.dir/build.make CMakeFiles/GRAPH.dir/src/Graph.cpp.i
+.PHONY : src/Graph.cpp.i
+
+src/Graph.s: src/Graph.cpp.s
+.PHONY : src/Graph.s
+
+# target to generate assembly for a file
+src/Graph.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GRAPH.dir/build.make CMakeFiles/GRAPH.dir/src/Graph.cpp.s
+.PHONY : src/Graph.cpp.s
+
+src/GraphMatrix.o: src/GraphMatrix.cpp.o
+.PHONY : src/GraphMatrix.o
+
+# target to build an object file
+src/GraphMatrix.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GRAPH.dir/build.make CMakeFiles/GRAPH.dir/src/GraphMatrix.cpp.o
+.PHONY : src/GraphMatrix.cpp.o
+
+src/GraphMatrix.i: src/GraphMatrix.cpp.i
+.PHONY : src/GraphMatrix.i
+
+# target to preprocess a source file
+src/GraphMatrix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GRAPH.dir/build.make CMakeFiles/GRAPH.dir/src/GraphMatrix.cpp.i
+.PHONY : src/GraphMatrix.cpp.i
+
+src/GraphMatrix.s: src/GraphMatrix.cpp.s
+.PHONY : src/GraphMatrix.s
+
+# target to generate assembly for a file
+src/GraphMatrix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GRAPH.dir/build.make CMakeFiles/GRAPH.dir/src/GraphMatrix.cpp.s
+.PHONY : src/GraphMatrix.cpp.s
+
 src/List.o: src/List.cpp.o
 .PHONY : src/List.o
 
@@ -189,6 +237,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Graph.o"
+	@echo "... src/Graph.i"
+	@echo "... src/Graph.s"
+	@echo "... src/GraphMatrix.o"
+	@echo "... src/GraphMatrix.i"
+	@echo "... src/GraphMatrix.s"
 	@echo "... src/List.o"
 	@echo "... src/List.i"
 	@echo "... src/List.s"

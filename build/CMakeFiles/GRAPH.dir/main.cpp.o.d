@@ -160,4 +160,6 @@ CMakeFiles/GRAPH.dir/main.cpp.o: /home/fester/cpp/graph-bfs/main.cpp \
  /usr/include/c++/11/bits/locale_conv.h \
  /usr/include/c++/11/bits/unique_ptr.h /usr/include/c++/11/utility \
  /usr/include/c++/11/bits/stl_relops.h /usr/include/c++/11/tuple \
- /usr/include/c++/11/array /usr/include/c++/11/bits/invoke.h
+ /usr/include/c++/11/array /usr/include/c++/11/bits/invoke.h \
+ /home/fester/cpp/graph-bfs/include/Graph.h \
+ /home/fester/cpp/graph-bfs/include/GraphMatrix.h

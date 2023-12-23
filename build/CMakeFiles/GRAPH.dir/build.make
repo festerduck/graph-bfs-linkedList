@@ -83,10 +83,38 @@ CMakeFiles/GRAPH.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GRAPH.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fester/cpp/graph-bfs/main.cpp -o CMakeFiles/GRAPH.dir/main.cpp.s
 
+CMakeFiles/GRAPH.dir/src/Graph.cpp.o: CMakeFiles/GRAPH.dir/flags.make
+CMakeFiles/GRAPH.dir/src/Graph.cpp.o: ../src/Graph.cpp
+CMakeFiles/GRAPH.dir/src/Graph.cpp.o: CMakeFiles/GRAPH.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fester/cpp/graph-bfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GRAPH.dir/src/Graph.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GRAPH.dir/src/Graph.cpp.o -MF CMakeFiles/GRAPH.dir/src/Graph.cpp.o.d -o CMakeFiles/GRAPH.dir/src/Graph.cpp.o -c /home/fester/cpp/graph-bfs/src/Graph.cpp
+
+CMakeFiles/GRAPH.dir/src/Graph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GRAPH.dir/src/Graph.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fester/cpp/graph-bfs/src/Graph.cpp > CMakeFiles/GRAPH.dir/src/Graph.cpp.i
+
+CMakeFiles/GRAPH.dir/src/Graph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GRAPH.dir/src/Graph.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fester/cpp/graph-bfs/src/Graph.cpp -o CMakeFiles/GRAPH.dir/src/Graph.cpp.s
+
+CMakeFiles/GRAPH.dir/src/GraphMatrix.cpp.o: CMakeFiles/GRAPH.dir/flags.make
+CMakeFiles/GRAPH.dir/src/GraphMatrix.cpp.o: ../src/GraphMatrix.cpp
+CMakeFiles/GRAPH.dir/src/GraphMatrix.cpp.o: CMakeFiles/GRAPH.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fester/cpp/graph-bfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GRAPH.dir/src/GraphMatrix.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GRAPH.dir/src/GraphMatrix.cpp.o -MF CMakeFiles/GRAPH.dir/src/GraphMatrix.cpp.o.d -o CMakeFiles/GRAPH.dir/src/GraphMatrix.cpp.o -c /home/fester/cpp/graph-bfs/src/GraphMatrix.cpp
+
+CMakeFiles/GRAPH.dir/src/GraphMatrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GRAPH.dir/src/GraphMatrix.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fester/cpp/graph-bfs/src/GraphMatrix.cpp > CMakeFiles/GRAPH.dir/src/GraphMatrix.cpp.i
+
+CMakeFiles/GRAPH.dir/src/GraphMatrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GRAPH.dir/src/GraphMatrix.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fester/cpp/graph-bfs/src/GraphMatrix.cpp -o CMakeFiles/GRAPH.dir/src/GraphMatrix.cpp.s
+
 CMakeFiles/GRAPH.dir/src/List.cpp.o: CMakeFiles/GRAPH.dir/flags.make
 CMakeFiles/GRAPH.dir/src/List.cpp.o: ../src/List.cpp
 CMakeFiles/GRAPH.dir/src/List.cpp.o: CMakeFiles/GRAPH.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fester/cpp/graph-bfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GRAPH.dir/src/List.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fester/cpp/graph-bfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GRAPH.dir/src/List.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GRAPH.dir/src/List.cpp.o -MF CMakeFiles/GRAPH.dir/src/List.cpp.o.d -o CMakeFiles/GRAPH.dir/src/List.cpp.o -c /home/fester/cpp/graph-bfs/src/List.cpp
 
 CMakeFiles/GRAPH.dir/src/List.cpp.i: cmake_force
@@ -100,16 +128,20 @@ CMakeFiles/GRAPH.dir/src/List.cpp.s: cmake_force
 # Object files for target GRAPH
 GRAPH_OBJECTS = \
 "CMakeFiles/GRAPH.dir/main.cpp.o" \
+"CMakeFiles/GRAPH.dir/src/Graph.cpp.o" \
+"CMakeFiles/GRAPH.dir/src/GraphMatrix.cpp.o" \
 "CMakeFiles/GRAPH.dir/src/List.cpp.o"
 
 # External object files for target GRAPH
 GRAPH_EXTERNAL_OBJECTS =
 
 GRAPH: CMakeFiles/GRAPH.dir/main.cpp.o
+GRAPH: CMakeFiles/GRAPH.dir/src/Graph.cpp.o
+GRAPH: CMakeFiles/GRAPH.dir/src/GraphMatrix.cpp.o
 GRAPH: CMakeFiles/GRAPH.dir/src/List.cpp.o
 GRAPH: CMakeFiles/GRAPH.dir/build.make
 GRAPH: CMakeFiles/GRAPH.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fester/cpp/graph-bfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable GRAPH"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fester/cpp/graph-bfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable GRAPH"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GRAPH.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
