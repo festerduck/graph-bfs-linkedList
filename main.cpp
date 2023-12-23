@@ -72,6 +72,7 @@ void Graph::addEdge(int vertex, int edge)
   }
   else {
     cout << "Vertex index is not valid" << endl;
+    throw -1;
   }
 }
 
@@ -129,7 +130,7 @@ int main()
     g.addEdge(2, 3);
     g.addEdge(3, 3);
  for (int i = 0; i < 4; i++) {
-    cout << "BFS with source " << i << endl;
+    cout << "BFS with source " << locations[i] << endl;
     g.BFS(i);
     cout << endl;
   }
